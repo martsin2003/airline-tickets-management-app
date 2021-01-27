@@ -1,0 +1,20 @@
+{
+  "name": "airline-tickets-management-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch --no-source-map input-styles/main.scss:output-styles/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martsin2003/airline-tickets-management-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martsin2003/airline-tickets-management-app/issues"
+  },
+  "homepage": "https://github.com/martsin2003/airline-tickets-management-app#readme"
+}

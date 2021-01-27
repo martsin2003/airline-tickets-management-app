@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.max-content-width {
+  margin: 0 auto;
+  max-width: 1230px;
+}
+
+.header-container {
+  width: 100%;
+  position: absolute;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-container .header-blok-around {
+  display: flex;
+  align-items: center;
+}
+.header-container .logo-around {
+  display: block;
+  margin-right: 32px;
+}
+.header-container .menu-item {
+  font-size: 16px;
+  padding: 14px 18px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+.header-container .menu-item:hover {
+  color: #ffffff;
+}
+.header-container .button-header-one {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  outline: none;
+  line-height: 1.5;
+}
+.header-container .button-header-one:hover {
+  color: #ffffff;
+}
+.header-container .button-user {
+  font-size: 14px;
+  border: medium none;
+  text-align: center;
+  background: transparent;
+  padding: 0;
+}
+.header-container .fa-user-o {
+  margin-right: 3px;
+}
+.header-container .button-header-two {
+  cursor: pointer;
+  margin-left: 30px;
+  color: #fff;
+  background-color: #766df4;
+  font-size: 16px;
+  padding: 9px 20px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  line-height: 1.5;
+  outline: none;
+}
+.header-container .button-header-two:hover {
+  background-color: #5549f1;
+  border-color: #493ef0;
+}
+
+.preview-section-block {
+  width: 100%;
+  height: 650px;
+  background-image: url("https://around.createx.studio/img/demo/booking/hero-bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.preview-section-block__title {
+  color: #fff;
+  font-size: 39px;
+  margin-bottom: 14px;
+  line-height: 1.2;
+}
+.preview-section-block__subtitle {
+  color: #fff;
+  font-size: 18px;
+}
+
+body, html {
+  margin: 0 !important;
+  max-width: 1230px;
+  font-family: "Inter", sans-serif;
+}

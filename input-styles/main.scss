@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import './general.scss';
+@import './header.scss';
+@import './preview-section-block.scss';
+
+body, html {
+  margin: 0 !important;
+  max-width: 1230px;
+  font-family: "Inter",sans-serif;
+}
